@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #f53172;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    background-color: #f53172;
+    min-height: 100vh;
+    padding: 30px 30px 10px 30px;
+}
+
+.content-card {
+    margin-bottom: 30px;
+}
+
+.card-icon {
+    padding: 5px;
+    border: 2px solid #241c4f;
+    margin: 10px 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.card-icon-description {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.work-card-content {
+    border: solid #241c4f;
+    border-width: 0 0 2px 0;
+    margin: 0 0 0 20px;
+    flex-grow: 1;
+}
+
+.card-text-content {
+    margin: 0 0 0 20px;
+    flex-grow: 1;
+}
+
+.heading-card {
+    padding: 0 20px 0 0;
+    border: 2px solid #241c4f;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    flex-grow: 1;
+}
+
+.card-heading {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.card-heading-description {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 14px;
+}
+
+.text-card {
+    padding: 0 0 0 20px;
+    border: 2px solid #241c4f;
+    border-right: 0;
+    border-top: 0;
+}
+
+.text {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 10px;
+    margin: 0 0 5px 0;
+}
+
+.work-card {
+    margin: 0 0 10px 0;
+}
+
+.work-year {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 12px;
+    width: 80px;
+}
+
+
+.work-description-bold {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.work-description {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 12px;
+    margin: 0;
+}
+
+.skill-award-card {
+    border: solid #241c4f;
+    border-width: 0 0 2px 0;
+    flex-grow: 1;
+}
+
+.skill-card {
+    padding-right: 20px;
+    border-right: 2px solid #241c4f;
+}
+
+.skill-text {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 10px;
+    margin: 0;
+    width: 100px;
+}
+
+.skill-rating {
+    width: 10px;
+    height: 10px;
+    background-color: #241c4f;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.award-container {
+    padding-left: 20px;
+}
+
+.award-card {
+    margin: 0 0 10px 0;
+}
+
+.award-year {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 12px;
+    width: 60px;
+}
+
+
+.award-description-bold {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.award-description {
+    font-family: Roboto;
+    color: #241c4f;
+    font-size: 12px;
+    margin: 0;
+}
+
+.interests-container-card {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #241c4f;
+}
+
+.interests-container {
+    margin: 0 20px;
+}
+
+.interests-card {
+    background-color: #241c4f;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.interests-card-description {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #241c4f;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .app-container {
+        width: 70%;
+    }
+}
